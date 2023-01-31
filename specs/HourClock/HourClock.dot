@@ -1,0 +1,31 @@
+strict digraph DiskGraph {
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-7891303547828010230 [label="hr = 1",style = filled]
+6735095729877665099 [label="hr = 2",style = filled]
+1761265517180946292 [label="hr = 3",style = filled]
+-5083435423524115484 [label="hr = 4",style = filled]
+-255972751425541669 [label="hr = 5",style = filled]
+3709051817111105434 [label="hr = 6",style = filled]
+8538731092302130597 [label="hr = 7",style = filled]
+821681815682847895 [label="hr = 8",style = filled]
+5647983475173643944 [label="hr = 9",style = filled]
+-9121473896074899223 [label="hr = 10",style = filled]
+-4292885265818987818 [label="hr = 11",style = filled]
+7307614150327008838 [label="hr = 12",style = filled]
+-7891303547828010230 -> 6735095729877665099 [label="",color="black",fontcolor="black"];
+6735095729877665099 -> 1761265517180946292 [label="",color="black",fontcolor="black"];
+1761265517180946292 -> -5083435423524115484 [label="",color="black",fontcolor="black"];
+-5083435423524115484 -> -255972751425541669 [label="",color="black",fontcolor="black"];
+-255972751425541669 -> 3709051817111105434 [label="",color="black",fontcolor="black"];
+3709051817111105434 -> 8538731092302130597 [label="",color="black",fontcolor="black"];
+8538731092302130597 -> 821681815682847895 [label="",color="black",fontcolor="black"];
+821681815682847895 -> 5647983475173643944 [label="",color="black",fontcolor="black"];
+5647983475173643944 -> -9121473896074899223 [label="",color="black",fontcolor="black"];
+-9121473896074899223 -> -4292885265818987818 [label="",color="black",fontcolor="black"];
+-4292885265818987818 -> 7307614150327008838 [label="",color="black",fontcolor="black"];
+7307614150327008838 -> -7891303547828010230 [label="",color="black",fontcolor="black"];
+{rank = same; 5647983475173643944;-7891303547828010230;-255972751425541669;6735095729877665099;3709051817111105434;-9121473896074899223;1761265517180946292;8538731092302130597;-4292885265818987818;821681815682847895;7307614150327008838;-5083435423524115484;}
+}
+}

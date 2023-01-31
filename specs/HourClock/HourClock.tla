@@ -12,7 +12,7 @@ HCnxt ==
   (*************************************************)
   (* The value of hr cycles from 1 through 12.     *)
   (*************************************************)
-   hr' = IF hr /= 12 THEN hr + 1 ELSE 1
+   hr' = IF hr # 12 THEN hr + 1 ELSE 1
 HC == HCini /\ [][HCnxt]_hr
 (* The complete spec.  It permits the clock to stop. *)
 -------------------------------------------------------------------------------

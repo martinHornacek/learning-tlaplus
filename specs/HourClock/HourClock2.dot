@@ -1,0 +1,30 @@
+strict digraph DiskGraph {
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-2198123902117164005 [label="hr = 1",style = filled]
+-5700396563032731059 [label="hr = 2",style = filled]
+5819654679055445350 [label="hr = 3",style = filled]
+1427996651392413409 [label="hr = 4",style = filled]
+-867279393395273270 [label="hr = 5",style = filled]
+-6742905077520281700 [label="hr = 6",style = filled]
+4777172488454959287 [label="hr = 7",style = filled]
+2614840384530925714 [label="hr = 8",style = filled]
+-4292412141952665671 [label="hr = 9",style = filled]
+-7641228044785997329 [label="hr = 10",style = filled]
+8490245222379198148 [label="hr = 11",style = filled]
+3945640839772214595 [label="hr = 12",style = filled]
+-2198123902117164005 -> -5700396563032731059 [label="",color="black",fontcolor="black"];
+-5700396563032731059 -> 5819654679055445350 [label="",color="black",fontcolor="black"];
+5819654679055445350 -> 1427996651392413409 [label="",color="black",fontcolor="black"];
+1427996651392413409 -> -867279393395273270 [label="",color="black",fontcolor="black"];
+-867279393395273270 -> -6742905077520281700 [label="",color="black",fontcolor="black"];
+-6742905077520281700 -> 4777172488454959287 [label="",color="black",fontcolor="black"];
+4777172488454959287 -> 2614840384530925714 [label="",color="black",fontcolor="black"];
+2614840384530925714 -> -4292412141952665671 [label="",color="black",fontcolor="black"];
+-4292412141952665671 -> -7641228044785997329 [label="",color="black",fontcolor="black"];
+-7641228044785997329 -> 8490245222379198148 [label="",color="black",fontcolor="black"];
+8490245222379198148 -> 3945640839772214595 [label="",color="black",fontcolor="black"];
+{rank = same; -2198123902117164005;1427996651392413409;8490245222379198148;5819654679055445350;-6742905077520281700;-4292412141952665671;3945640839772214595;-867279393395273270;-7641228044785997329;-5700396563032731059;4777172488454959287;2614840384530925714;}
+}
+}
